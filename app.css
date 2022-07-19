@@ -6,7 +6,7 @@
 }
 
 body{
-    min-height: 150vh;
+    min-height: 100vh;
 }
 
 body::before{
@@ -201,6 +201,7 @@ body::before{
     font-size: 1.2rem;
     font-weight: 500;
 }
+
 
 @media only screen and (min-height: 480px) and (max-width: 767px){
     #nav-item{
