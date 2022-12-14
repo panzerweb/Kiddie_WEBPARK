@@ -172,6 +172,15 @@ body::before{
 }
 
 #img-games:hover{
+    opacity: .9;
+}
+
+#game-caption{
+    opacity: 0;
+    transition: 0.8s linear;
+}
+
+#game-caption:hover{
     opacity: 1;
 }
 
@@ -234,6 +243,11 @@ body::before{
         padding: 1rem 2rem;
         border-radius: 15px;
     }
+
+    #game-caption p{
+        font-size: 0.7rem;
+    }
+
     #socials-link-intro svg{
         color: rgb(114, 139, 160);
         transition: 0.2s;
