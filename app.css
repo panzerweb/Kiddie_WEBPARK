@@ -184,6 +184,11 @@ body::before{
     opacity: 1;
 }
 
+#carousel-below{
+    height: 200px;
+}
+
+
 #about-usContain{
     margin: 5rem 0;
     background-color: #F0EC57;
