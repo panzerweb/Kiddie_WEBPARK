@@ -15,6 +15,9 @@ body::before{
     height: 5rem;
 }
 
+#navigation{
+    background-color: #291720;
+}
 
 #nav-item{
     position: relative;
@@ -135,6 +138,7 @@ body::before{
     position: relative;
     display: inline;
     padding-bottom: 3px;
+    color: #006400;
 }
 
 #gameHeader::after{
@@ -187,22 +191,40 @@ body::before{
 #carousel-below{
     height: 200px;
 }
-
-#game-carous img{
+#game-carous{
+    border-bottom: 1px solid #B91372;
+    padding-bottom: 7rem;
+}
+#card-game img{
     height: 150px;
     box-shadow: 2px 2px #B91372;
     transition: 0.5s linear;
 }
 
-#game-carous img:hover{
+#card-game img:hover{
     transform: scale(1.1);
+}
+
+#moreRelatedSection h3{
+    color: #D81159;
+}
+
+#about-us{
+    padding-top: 2.5rem;
 }
 
 #about-usContain{
     margin: 5rem 0;
-    background-color: #F0EC57;
     padding: 0;
 }
+#about-usContain h4{
+    color: #D81159;
+}
+#about-paragraph{
+    font-size: 1.5rem;
+    color: #B1740F;
+}
+
 
 #oggy-about{
     position: relative;
@@ -223,6 +245,11 @@ body::before{
 #about-text p{
     font-size: 1.2rem;
     font-weight: 500;
+}
+
+#section{
+    padding-top: 8rem;
+    background-color: #291720;
 }
 
 

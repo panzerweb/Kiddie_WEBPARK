@@ -18,7 +18,7 @@
     <title>Kiddie Web Park</title>
 </head>
 <body class="bg-dark">
-    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top" id="navigation">
         <div class="container-fluid">
             <img src="./Asset/images/hand-logo.png" alt="" id="nav-icon-logo" class="navbar-brand" width="50px"
           data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
@@ -408,7 +408,7 @@
 <!-- MORE RELATED GAMES BELOW CAROUSEL-->
 <section class="bg-dark my-5" id="moreRelatedSection">
   <div class="text-center my-5">
-    <h3 class=" text-light fw-bold text-decoration-underline">More Related Games</h3>
+    <h3 class="fw-bold text-decoration-underline">More Related Games</h3>
   </div>
   <div class="container-fluid" id="moreRelated">
     <!--To be continued-->
@@ -418,20 +418,32 @@
           <div class="card border-0" id="card-game">
             <img src="./Asset/owlcarouselimg/dota2.jpg" alt="" class="card-img-fluid">
           </div>
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <img src="./Asset/owlcarouselimg/cardbody/dota2.png" class="card-img-fluid w-25 mt-4" alt="">
+          </div>
         </div>
         <div class="item mb-4">
-          <div class="card border-0">
+          <div class="card border-0" id="card-game">
             <img src="./Asset/owlcarouselimg/LOL.jpeg" alt="" class="card-img-fluid">
           </div>
-        </div>
-        <div class="item mb-4">
-          <div class="card border-0">
-            <img src="./Asset/owlcarouselimg/Roblox.jpg" alt="" class="card-img-fluid">
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <img src="./Asset/owlcarouselimg/cardbody/LOL.png" class="card-img-fluid w-75 mt-4" alt="">
           </div>
         </div>
         <div class="item mb-4">
-          <div class="card border-0">
+          <div class="card border-0" id="card-game">
+            <img src="./Asset/owlcarouselimg/Roblox.jpg" alt="" class="card-img-fluid">
+          </div>
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <img src="./Asset/owlcarouselimg/cardbody/Roblox-Logo.png" class="card-img-fluid w-75 mt-0" alt="">
+          </div>
+        </div>
+        <div class="item mb-4">
+          <div class="card border-0" id="card-game">
             <img src="./Asset/owlcarouselimg/valorant.jpg" alt="" class="card-img-fluid">
+          </div>
+          <div class="card-body d-flex justify-content-center align-items-center">
+            <img src="./Asset/owlcarouselimg/cardbody/Valorant_logo.svg.png" class="card-img-fluid w-75 mt-5" alt="">
           </div>
         </div>
         
@@ -442,24 +454,36 @@
 </section>
 
 <!--About Us section-->
-      <section class="bg-light" id="about-us">
-        <div class="container-fluid" id="about-usContain">
-          <div class="row justify-content-space align-items-center">
-            <div class="col-lg-6">
-              <img src="./Asset/images/oggy-and-the-cockroaches-paint-by-numbers.jpg" alt="" class="img-fluid" id="oggy-about">
+      <section class="bg-dark" id="about-us">
+        <div class="container-fluid px-5" id="about-usContain">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-lg-12">
+              <h4 class="text-center display-1">
+                <span></span>
+                <i class="bi bi-dash-lg"></i>
+                ABOUT US
+                <i class="bi bi-dash-lg"></i>
+                <span></span>
+              </h4>
             </div>
-            <div class="col-lg-6 text-center" id="about-text">
-              <h3>ABOUT US</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Soluta adipisci optio ad eos, eveniet atque rerum, aperiam numquam nobis
-                 distinctio cupiditate sunt corporis quas animi minima unde voluptate inventore tenetur.</p>
+            <div class="col-lg-12">
+              <p class="text-center" id="about-paragraph">
+                Welcome to our website, where we provide entertainment and education for kids!
+
+                Our team is dedicated to finding the best games and videos that not only provide hours of fun, but also help children learn and grow. We understand that it can be challenging to find content that is both entertaining and educational, which is why we take the time to carefully curate our selection.
+
+                Our website is designed with kids in mind, with easy-to-use navigation and a user-friendly interface. We want children to be able to explore and discover new things on their own, while still being safe online. We also provide resources for parents, including tips and recommendations on how to use our website with their children.
+
+                Thank you for choosing us as your go-to source for entertainment and education for kids. We hope you and your little ones enjoy all that our website has to offer.
+              </p>
             </div>
           </div>
+
         </div>
       </section>
 
 <!--Footer Section-->
-      <footer id="section" class="bg-dark text-light mt-5 p-4 ">
+      <footer id="section" class="text-light">
         <div class="container-lg">
           <div class="row justify-content-center">
             <div class="col-sm-8 col-lg-2">
