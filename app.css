@@ -192,7 +192,7 @@ body::before{
     height: 200px;
 }
 #game-carous{
-    border-bottom: 1px solid #B91372;
+    border-bottom: 1px solid #22191e;
     padding-bottom: 7rem;
 }
 #card-game img{
@@ -211,6 +211,7 @@ body::before{
 
 #about-us{
     padding-top: 2.5rem;
+    padding-bottom: 15rem;
 }
 
 #about-usContain{
@@ -225,27 +226,6 @@ body::before{
     color: #B1740F;
 }
 
-
-#oggy-about{
-    position: relative;
-    height: 30rem;
-    width: 50rem;
-}
-
-#about-text{
-    position: relative;
-}
-
-#about-text h3{
-    font-size: 7rem;
-    font-weight: bold;
-    text-decoration: underline #839788;
-}
-
-#about-text p{
-    font-size: 1.2rem;
-    font-weight: 500;
-}
 
 #section{
     padding-top: 8rem;
@@ -294,22 +274,22 @@ body::before{
         transition: 0.2s;
         height: 2.4rem;
     }
-
-    #oggy-about{
-        position: relative;
-        height: 15rem;
-        width: 50rem;
+    #about-us{
+        padding-top: 1rem;
+        padding-bottom: 10rem;
     }
-
-    #about-text h3{
-        font-size: 5rem;
-        font-weight: bold;
-        text-decoration: underline #839788;
+    
+    #about-usContain{
+        margin: 2rem 0;
+        padding: 0;
     }
-    #about-text p{
+    #about-usContain h4{
+        color: #D81159;
+        font-size: 2.3rem;
+    }
+    #about-paragraph{
         font-size: 1rem;
-        letter-spacing: 1.5px;
-        font-weight: 500;
+        color: #B1740F;
     }
 
 }
