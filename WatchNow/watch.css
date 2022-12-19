@@ -78,6 +78,7 @@ body::before{
     background-color: #212529;
     transition: 0.5s linear;
     height: 100%;
+    cursor: pointer;
 }
 #charImg img:hover{
     background-color: #666161;
