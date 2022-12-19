@@ -61,6 +61,7 @@ body::before{
     background-size: contain;
 }
 
+/* This styling is for Character section carousel*/
 #character-carous{
     padding-top: 3rem;
 }
@@ -73,7 +74,7 @@ body::before{
 #charText h4:hover{
     color: #d4f804;
 }
-
+/* This code is for the carousel images styling*/
 #charImg img{
     background-color: #212529;
     transition: 0.5s linear;

@@ -133,6 +133,7 @@ body::before{
 #socials-link-intro svg:hover{
     color: rgb(9, 229, 245);
 }
+/* Styling for the Games Section carousel*/
 
 #gameHeader{
     position: relative;
@@ -191,6 +192,8 @@ body::before{
 #carousel-below{
     height: 200px;
 }
+
+/* For the More Games Related Section carousel*/
 #game-carous{
     border-bottom: 1px solid #22191e;
     padding-bottom: 7rem;
