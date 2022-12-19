@@ -15,6 +15,9 @@ body::before{
     height: 5rem;
 }
 
+#navigation{
+    background-color: #291720;
+}
 
 #nav-item{
     position: relative;
@@ -58,6 +61,27 @@ body::before{
     background-size: contain;
 }
 
+#character-carous{
+    padding-top: 3rem;
+}
+
+#charText h4{
+    letter-spacing: 3px;
+    transition: 0.5s ease-in    ;
+}
+
+#charText h4:hover{
+    color: #d4f804;
+}
+
+#charImg img{
+    background-color: #212529;
+    transition: 0.5s linear;
+    height: 100%;
+}
+#charImg img:hover{
+    background-color: #666161;
+}
 
 
 
