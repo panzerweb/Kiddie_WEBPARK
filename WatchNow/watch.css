@@ -55,18 +55,22 @@ body::before{
 }
 
 /* For introduction styling*/
+
+#carous-intro{
+    height: 100%;
+}
 #intro-watch{
     height: 80vh;
     background-position: center;
     background-size: contain;
 }
-
 /* This styling is for Character section carousel*/
 #character-carous{
     padding-top: 3rem;
 }
 
 #charText h4{
+    padding-left: 5rem;
     letter-spacing: 3px;
     transition: 0.5s ease-in    ;
 }
@@ -85,7 +89,43 @@ body::before{
     background-color: #666161;
 }
 
+/*!Character carousel ends*/
 
+/*? Video Carousel Styling*/
+#vid-carous{
+    height: 100%;
+}
+
+#vidText{
+    position: relative;
+}
+#vidText h4{
+    padding-left: 5rem;
+    letter-spacing: 3px;
+    transition: 0.5s ease-in;
+}
+
+#vidText h4:hover{
+    color: #d4f804;
+}
+#vidText i{
+    margin-left: 1rem;
+}
+
+#video-carous img{
+    transition: 0.5s linear;
+    height: 14rem;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 1.5rem solid #D81159;
+}
+
+#video-carous img:hover{
+    transform: scale(1.1);
+}
+
+/* VIDEO CAROUSEL ENDS*/
 
 @keyframes offparagraph {
     0%{
@@ -118,4 +158,41 @@ body::before{
 
 #socials-link-intro svg:hover{
     color: rgb(9, 229, 245);
+}
+
+@media only screen and (min-height: 480px) and (max-width: 767px){
+    
+    #carous-intro{
+        height: 50%;
+}
+    #intro-watch{
+        height: 50vh;
+        background-position: center;
+        background-size: contain;
+}
+  
+    #charText h4{
+        padding: 0;
+        text-align: center;
+        transition: 0.5s ease-in    ;
+}
+    #charText i{
+        display: block;
+        margin: 1rem auto;
+    }
+    #charImg img{
+        background-color: #212529;
+        transition: 0.5s linear;
+        height: 50%;
+        cursor: pointer;
+    }
+    #vidText h4{
+        padding: 0;
+        text-align: center;
+        transition: 0.5s ease-in;
+    }    
+    #vidText i{
+        display: block;
+        margin: 1rem auto;
+    }
 }

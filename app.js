@@ -1,3 +1,4 @@
+//!THIS IS FOR THE MODALS
 let getPass = document.getElementById("inputPassword4");
 let passMessage = document.getElementById("message");
 let strength = document.getElementById("strength");
