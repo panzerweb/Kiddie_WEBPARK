@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
  
 </head>
-<body class="bg-dark">
+<body>
     <nav class="navbar navbar-expand-lg fixed-top" id="navigation">
         <div class="container-fluid">
             <img src="./Assets/fav/hand-logo.png" alt="" id="nav-icon-logo" class="navbar-brand" width="50px"
@@ -291,7 +291,7 @@
 <!-- *CAROUSEL FOR CHARACTERS-->
 <section id="character-carous" class="mt-5">
   <div class="container-fluid my-5">
-    <div class="text-left text-light" id="charText">
+    <div class="text-left" id="charText">
       <h4 class="display-5">CHARACTERS<i class="bi bi-caret-right-fill"></i></h4>
     </div>
     <div class="row mt-4">
@@ -323,7 +323,7 @@
         </div>
         <div class="item mb-4">
           <div class="card border-0" id="charImg">
-            <img src="./Assets/Carousel1/RANDY.png" class="card-img-top" alt="">
+            <img src="./Assets/Carousel1/RANDY.png" alt="" class="card-img-top">
           </div>
         </div>
     </div>
@@ -336,7 +336,7 @@
 <!--? Basic Carousel Videos-->
 <section id="vid-carous" class="mt-1">
   <div class="container-fluid my-5">
-    <div class="text-left text-light" id="vidText">
+    <div class="text-left" id="vidText">
         <h4 class="display-5">Videos<i class="bi bi-camera-reels-fill"></i></h4>
     </div>
     <div class="row mt-2">
@@ -385,6 +385,70 @@
     </div>
   </div>
 </section>
+<!--Suggested videos section carousel-->
+<section id="suggestion-section">
+  <div class="container-fluid my-1">
+    <div class="owl-carousel owl-theme">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-12">
+          <div class="item" id="suggested-video">
+            <div class="card border-0">
+              <img src="./Assets/Carousel3/KUNGFU.jpg" alt="" class="card-img-fluid">
+            </div>
+          </div>
+          <div class="item" id="suggested-video">
+            <div class="card border-0">
+              <img src="./Assets/Carousel3/Lionking.jpeg" alt="" class="card-img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-12">
+          <div class="item" id="suggested-video">
+            <div class="card border-0">
+              <img src="./Assets/Carousel3/madagascar_disney.jpg" alt="" class="card-img-fluid">
+            </div>
+          </div>
+          <div class="item" id="suggested-video">
+            <div class="card border-0">
+              <img src="./Assets/Carousel3/NEMO.jpeg" alt="" class="card-img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-12">
+          <div class="item" id="suggested-video">
+            <div class="card border-0">
+              <img src="./Assets/Carousel3/SHREK.jpg" alt="" class="card-img-fluid">
+            </div>
+          </div>
+          <div class="item" id="suggested-video">
+            <div class="card border-0">
+              <img src="./Assets/Carousel3/theincredibles.jpeg" alt="" class="card-img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-12">
+          <div class="item" id="suggested-video">
+            <div class="card border-0">
+              <img src="./Assets/Carousel3/Toystory.jpeg" alt="" class="card-img-fluid">
+            </div>
+          </div>
+          <div class="item" id="suggested-video">
+            <div class="card border-0">
+              <img src="./Assets/Carousel3/Up_pixar.jpg" alt="" class="card-img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+  </div>
+</section>
 
 
 
@@ -398,7 +462,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script>
-      $('.owl-carousel').owlCarousel({
+      $('.owl-carousel').owlCarousel({   
     loop:true,
     margin:10,
     nav:true,
@@ -413,7 +477,9 @@
             items:6
         }
     }
-})
+})  
+      
     </script>
+
 </body>
 </html>

@@ -5,8 +5,15 @@
     font-family: monospace;
 }
 
+:root{
+    --prime-color: #291720;
+    --text-color: #f6bd60;
+    --blend-color: #3f172c8e;
+}
+
 body{
     min-height: 100vh;
+    background-color: var(--prime-color) !important;
 }
 
 body::before{
@@ -16,7 +23,7 @@ body::before{
 }
 
 #navigation{
-    background-color: #291720;
+    background-color: var(--prime-color);
 }
 
 #nav-item{
@@ -64,12 +71,13 @@ body::before{
     background-position: center;
     background-size: contain;
 }
-/* This styling is for Character section carousel*/
+/*! This styling is for Character section carousel*/
 #character-carous{
     padding-top: 3rem;
 }
 
 #charText h4{
+    color: var(--text-color);
     padding-left: 5rem;
     letter-spacing: 3px;
     transition: 0.5s ease-in    ;
@@ -80,7 +88,7 @@ body::before{
 }
 /* This code is for the carousel images styling*/
 #charImg img{
-    background-color: #212529;
+    background-color: var(--prime-color);
     transition: 0.5s linear;
     height: 100%;
     cursor: pointer;
@@ -100,6 +108,7 @@ body::before{
     position: relative;
 }
 #vidText h4{
+    color: var(--text-color);
     padding-left: 5rem;
     letter-spacing: 3px;
     transition: 0.5s ease-in;
@@ -126,6 +135,18 @@ body::before{
 }
 
 /* VIDEO CAROUSEL ENDS*/
+
+/*! VIDEO SUGGESTION CAROUSEL STARTS*/
+#suggestion-section{
+    background-color: var(--prime-color);
+    height: 100%;
+}
+#suggested-video img{
+    height: 15rem;
+    max-width: 100%;
+    padding: 0.5rem 0.1rem;
+    background-color: var(--prime-color);
+}
 
 @keyframes offparagraph {
     0%{

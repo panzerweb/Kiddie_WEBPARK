@@ -5,8 +5,15 @@
     font-family: monospace;
 }
 
+:root{
+    --prime-color: #291720;
+    --text-color: #f6bd60;
+    --blend-color: #3f172c8e;
+}
+
 body{
     min-height: 100vh;
+    background-color: var(--prime-color) !important;
 }
 
 body::before{
@@ -45,6 +52,10 @@ body::before{
 
 #nav-icon-logo:hover{
     transform: rotate(360deg);
+}
+
+#offcanvasWithBothOptions{
+    background-color: var(--prime-color) !important;
 }
 
 #offcanvas-para{
@@ -139,7 +150,7 @@ body::before{
     position: relative;
     display: inline;
     padding-bottom: 3px;
-    color: #006400;
+    color: var(--text-color);
 }
 
 #gameHeader::after{
@@ -208,13 +219,18 @@ body::before{
     transform: scale(1.1);
 }
 
+#moreRelatedSection{
+    background-color: var(--blend-color) !important;
+}
+
 #moreRelatedSection h3{
-    color: #D81159;
+    color: var(--text-color);
 }
 
 #about-us{
     padding-top: 2.5rem;
     padding-bottom: 15rem;
+    background-color: var(--blend-color);
 }
 
 #about-usContain{
@@ -222,7 +238,7 @@ body::before{
     padding: 0;
 }
 #about-usContain h4{
-    color: #D81159;
+    color: var(--text-color);
 }
 #about-paragraph{
     font-size: 1.5rem;
