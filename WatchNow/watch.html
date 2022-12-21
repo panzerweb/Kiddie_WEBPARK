@@ -295,7 +295,7 @@
       <h4 class="display-5">CHARACTERS<i class="bi bi-caret-right-fill"></i></h4>
     </div>
     <div class="row mt-4">
-      <div class="owl-carousel owl-theme">
+      <div class="owl-carousel owl-theme" id="character-car">
         <div class="item mb-4">
           <div class="card border-0" id="charImg">
             <img src="./Assets/Carousel1/TAJ.png" class="card-img-top" alt="">
@@ -340,7 +340,7 @@
         <h4 class="display-5">Videos<i class="bi bi-camera-reels-fill"></i></h4>
     </div>
     <div class="row mt-2">
-      <div class="owl-carousel owl-theme">
+      <div class="owl-carousel owl-theme" id="video-car">
         <div class="item">
           <div class="card border-0" id="video-carous">
             <img src="./Assets/Carousel2/Ben10.jpeg" alt="" class="card-img-top">
@@ -385,63 +385,47 @@
     </div>
   </div>
 </section>
-<!--Suggested videos section carousel-->
+<!-- !Suggested videos section carousel-->
 <section id="suggestion-section">
-  <div class="container-fluid my-1">
-    <div class="owl-carousel owl-theme">
-      <div class="row justify-content-center align-items-center">
+  <div class="container-fluid my-1" id="suggestion-container">
+    <div class="owl-carousel owl-theme" id="suggestion-car">
+      <div class="row">
         <div class="col-lg-12">
           <div class="item" id="suggested-video">
-            <div class="card border-0">
               <img src="./Assets/Carousel3/KUNGFU.jpg" alt="" class="card-img-fluid">
-            </div>
           </div>
           <div class="item" id="suggested-video">
-            <div class="card border-0">
               <img src="./Assets/Carousel3/Lionking.jpeg" alt="" class="card-img-fluid">
-            </div>
           </div>
         </div>
       </div>
-      <div class="row justify-content-center align-items-center">
+      <div class="row">
         <div class="col-lg-12">
           <div class="item" id="suggested-video">
-            <div class="card border-0">
               <img src="./Assets/Carousel3/madagascar_disney.jpg" alt="" class="card-img-fluid">
-            </div>
           </div>
           <div class="item" id="suggested-video">
-            <div class="card border-0">
               <img src="./Assets/Carousel3/NEMO.jpeg" alt="" class="card-img-fluid">
-            </div>
           </div>
         </div>
       </div>
-      <div class="row justify-content-center align-items-center">
+      <div class="row">
         <div class="col-lg-12">
           <div class="item" id="suggested-video">
-            <div class="card border-0">
               <img src="./Assets/Carousel3/SHREK.jpg" alt="" class="card-img-fluid">
-            </div>
           </div>
           <div class="item" id="suggested-video">
-            <div class="card border-0">
               <img src="./Assets/Carousel3/theincredibles.jpeg" alt="" class="card-img-fluid">
-            </div>
           </div>
         </div>
       </div>
-      <div class="row justify-content-center align-items-center">
+      <div class="row">
         <div class="col-lg-12">
           <div class="item" id="suggested-video">
-            <div class="card border-0">
               <img src="./Assets/Carousel3/Toystory.jpeg" alt="" class="card-img-fluid">
-            </div>
           </div>
           <div class="item" id="suggested-video">
-            <div class="card border-0">
               <img src="./Assets/Carousel3/Up_pixar.jpg" alt="" class="card-img-fluid">
-            </div>
           </div>
         </div>
       </div>
@@ -449,6 +433,8 @@
   </div>
   </div>
 </section>
+
+<!--! Suggestion videos ends-->
 
 
 
@@ -462,7 +448,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script>
-      $('.owl-carousel').owlCarousel({   
+
+      //This is for the carousels, we use different IDs in order to separately modify the carousels
+      $('#character-car').owlCarousel({   
     loop:true,
     margin:10,
     nav:true,
@@ -478,8 +466,44 @@
         }
     }
 })  
-      
+      $('#video-car').owlCarousel({   
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:6
+        }
+    }
+})  
+
+$('#suggestion-car').owlCarousel({
+    stagePadding: 50,
+    loop:false,
+    margin:10,
+    nav:false,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
+        }
+    }
+})
+
     </script>
+
 
 </body>
 </html>

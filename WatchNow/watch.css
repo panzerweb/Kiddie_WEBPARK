@@ -137,17 +137,40 @@ body::before{
 /* VIDEO CAROUSEL ENDS*/
 
 /*! VIDEO SUGGESTION CAROUSEL STARTS*/
+
 #suggestion-section{
-    background-color: var(--prime-color);
     height: 100%;
-}
-#suggested-video img{
-    height: 15rem;
-    max-width: 100%;
-    padding: 0.5rem 0.1rem;
     background-color: var(--prime-color);
+    background-image: url(./Assets/Carousel3/1327350.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#suggestion-container{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+#suggestion-car{
+    width: 50%;
 }
 
+#suggested-video img{
+    height: 15rem;
+    padding: 0.3rem 0.5rem;
+    max-width: 100%;
+    transition: 0.3s linear;
+}
+
+#suggested-video img:hover{
+    filter: brightness(50%);
+}
+
+/*! VIDEO SUGGESTION CAROUSEL ENDS*/
+
+
+/*? This styling is use for the animation on sidebar/offcanvas */
 @keyframes offparagraph {
     0%{
         color: #d3d3d3 ;
@@ -180,6 +203,8 @@ body::before{
 #socials-link-intro svg:hover{
     color: rgb(9, 229, 245);
 }
+
+/*? End of canvas animation code block*/
 
 @media only screen and (min-height: 480px) and (max-width: 767px){
     
@@ -215,5 +240,22 @@ body::before{
     #vidText i{
         display: block;
         margin: 1rem auto;
+    }
+
+    #suggestion-container{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #suggestion-car{
+        width: 100%;
+    }
+    
+    #suggested-video img{
+        height: 15rem;
+        max-width: 100%;
+        transition: 0.3s linear;
     }
 }
