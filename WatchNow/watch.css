@@ -212,7 +212,7 @@ body::before{
 }
 
 #section{
-    padding-top: 8rem;
+    padding-top: 20rem;
     background-color: var(--prime-color);
 }
 
