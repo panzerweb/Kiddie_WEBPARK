@@ -92,7 +92,8 @@ body::before{
 #charImg img{
     background-color: var(--prime-color);
     transition: 0.5s linear;
-    height: 100%;
+    height: 15rem;
+    max-width: 100%;
     cursor: pointer;
 }
 #charImg img:hover{
@@ -184,6 +185,13 @@ body::before{
 
 /*! VIDEO SUGGESTION CAROUSEL ENDS*/
 
+#Faqs{
+    color: var(--text-color);
+}
+#Faqs h3{
+    font-size: 5rem;
+    font-weight: bold;
+}
 #avatar img{
     width: 20rem;
     margin-left: 5rem;
@@ -275,7 +283,9 @@ body::before{
     #charImg img{
         background-color: #212529;
         transition: 0.5s linear;
-        height: 50%;
+        width: 15rem;
+        margin: 0 auto;
+        height: 15rem;
         cursor: pointer;
     }
     #vidText h4{
