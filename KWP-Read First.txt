@@ -1,0 +1,15 @@
+NOTE: Opening the website on a non live-server or 
+without using a code editor such as VSCode would
+deactivate the some links to be navigated due to the
+code implemented there that are live-server dependent.
+Therefore, manually opening this website will not 100%
+function.
+
+Put the example codes on an Anchor Tag's href like base on its medium : <a href=""></a>
+
+1.)Example Code: (Manual, Non live-server dependent)
+- C:\Users\toshiba\OneDrive\Documents\FRONT-END PROJECTS\Kiddie_WEBPARK\T&C\terms.html
+
+2.)Example Code: (Live server, Code Editor)
+- /T&C/terms.html
+
