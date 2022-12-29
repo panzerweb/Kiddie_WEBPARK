@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Asset/images/hand-logo.png" type="image/x-icon">
+    <title>KWP | Terms and Conditions</title>
+    <link rel="stylesheet" href="terms.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" id="navigation">
+        <div class="container-fluid">
+            <img src="/Asset/images/hand-logo.png" alt="" id="nav-icon-logo" class="navbar-brand" width="50px"
+          data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+             
+          <a class="navbar-brand ms-3 text-light text-center fs-2" href="#">Kiddie WebPark</a>
+
+          <button class="navbar-toggler" style="color: white;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="nav-item">
+  <!--LOGIN FORM-->
+              <li class="nav-item px-2">
+                <a class="btn btn-outline-success nav-link px-2 text-light" aria-current="page" href="#"
+                data-bs-toggle="modal" data-bs-target="#exampleModal">Log In</a>
+              </li>
+  
+<!--Register Form-->
+              <li class="nav-item px-2">
+                <a class="btn btn-outline-warning nav-link px-3 text-light" href="#"
+                data-bs-toggle="modal" data-bs-target="#exampleModal2">Register</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!-- Modal for LOgin-->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark text-light">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">LOGIN</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="row justify-content-center-align-items-center my-2 gy-3">
+                <div class="col-lg-6 mx-auto">
+                  <div class="input-group">
+                    <span class="input-group-text">
+                      <i class="bi bi-envelope-fill" for="emailHere" class="form-label"></i>                          
+                    </span>
+                      <input type="email" class="form-control is-invalid" id="emailHere" required>
+                  </div>
+
+                </div>
+                <div class="col-lg-6 mx-auto">
+                  <div class="input-group">
+                    <span class="input-group-text">
+                      <i class="bi bi-person-circle"></i>
+                    </span>
+                    <input type="password" class="form-control" id="inputPassword4" required>
+                    <p id="message" class="col-12">Password is<span id="strength"></span></p>
+                    
+                  </div>
+                </div>
+                <div class="col-lg-6 mx-auto">
+                  <div class="input-group mt-3">
+                    <span class="input-group-text">
+                      <i class="bi bi-file-person-fill" for="Username" class="form-label"></i>
+                    </span>
+                    <input type="text" class="form-control is-invalid" id="Username" required>      
+                  </div>
+                </div>
+                <div class="col-lg-12 text-center mt-5">      
+                  <label for="dot-5">
+                      <span class="dot one"></span>
+                      <input type="checkbox" name="gender" id="dot-5" class="mx-auto" required>
+                      <span class="text-center">Do you Agree to the Terms & Conditions?</span>
+                  </label>
+                </div>
+                <div class="col-lg-12 text-center mt-2">
+                  <label for="dot-6">
+                    <span class="dot two"></span>
+                    <input type="checkbox" name="gender" id="dot-6" class="mx-auto" required>
+                    <span class="mx-3 text-center">Do you Agree to the websites Privacy & Policy?</span>
+                  </label>
+                </div>
+                <div class="col-lg-12 text-center mt-3">
+                  <button type="submit" class="btn btn-success">Login</button>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal for Register-->
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark text-light">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">REGISTER</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="row justify-content-center-align-items-center my-2">
+                <div class="col-lg-6 mx-auto">
+                  <label for="emailHere" class="form-label">Email</label>
+                  <input type="email" class="form-control is-invalid" id="emailHere">
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>      
+                </div>
+                <div class="col-lg-6 mx-auto">
+                  <label for="inputPassword5" class="form-label">Password</label>
+                  <input type="password" class="form-control is-invalid " id="inputPassword5">
+                  <p id="messageTwo" class="col-12">Password is<span id="strengthTwo"></span></p>
+                </div>
+                <div class="col-lg-6 mx-auto">
+                  <label for="Username" class="form-label">Username</label>
+                  <input type="text" class="form-control is-invalid" id="Username" aria-describedby="UsernameFeedback" required>
+                  <div id="UsernameFeedback" class="invalid-feedback">
+                    Please choose a username!
+                  </div>      
+                </div>
+                <div class="col-lg-12 text-center mt-5">      
+                  <div>
+                      <label for="dot-1" class="form-check-label" for="invalidCheck2">
+                          <span class="dot one"></span>
+                          <input type="radio" name="gender" id="dot-1" class="mx-auto form-check-input is-invalid" aria-describedby="invalidCheck2Feedback" required>
+                          <span class="btn btn-success mx-3 text-center">Male</span>
+                      </label>
+
+                      <label for="dot-2" class="form-check-label" for="invalidCheck2">
+                          <span class="dot two"></span>
+                          <input type="radio" name="gender" id="dot-2" class="mx-auto form-check-input is-invalid" aria-describedby="invalidCheck2Feedback" required>
+                          <span class="btn btn-success mx-3 text-center">Female</span>
+                      </label>
+
+                      <label for="dot-3" class="form-check-label" for="invalidCheck2">
+                          <span class="dot three"></span>
+                          <input type="radio" name="gender" id="dot-3" class="mx-auto form-check-input is-invalid" aria-describedby="invalidCheck2Feedback" required>
+                          <span class="btn btn-success mx-3 text-center">Others</span>
+                      </label>
+
+                <div class="col-lg-12 text-center mt-5">      
+                  <label for="dot-7" class="form-check-label" for="invalidCheck3">
+                      <span class="dot one"></span>
+                      <input type="checkbox" name="gender" id="dot-7" class="mx-auto form-check-input is-invalid"  aria-describedby="invalidCheck3Feedback" required>
+                      <span class="text-center">Do you Agree to the Terms & Conditions?</span>
+                  </label>
+                </div>
+                <div class="col-lg-12 text-center mt-2">
+                  <label for="dot-8" class="form-check-label" for="invalidCheck4">
+                    <span class="dot two"></span>
+                    <input type="checkbox" name="gender" id="dot-8" class="mx-auto form-check-input is-invalid" aria-describedby="invalidCheck4Feedback" required>
+                    <span class="mx-3 text-center">Do you Agree to the websites Privacy & Policy?</span>
+                  </label>
+                </div>
+                <div class="col-lg-12 text-center mt-3">
+                  <button type="submit" class="btn btn-success">Register</button>
+                </div>
+                  </div>
+              </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!--OFF CANVAS/ SIDEBAR-->
+      <div class="offcanvas offcanvas-start bg-dark text-light" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+          <img src="/Asset/images/hand-logo.png" alt="" class="navbar-brand" width="50px">
+          <h5 class="offcanvas-title fs-2" id="offcanvasWithBothOptionsLabel">Kiddie WebPark</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body justify-content-center fs-4" id="offcanvas-para">
+          <p>Explore the fun, and kid-friendly webpage that will surely guide you parents and also
+            your kids toward better learning and guidance.
+          </p>
+          
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="offcanvas-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html#gamesection">Games <i class="bi bi-controller"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact <i class="bi bi-telephone-fill"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html#about-us">About Us <i class="bi bi-laptop-fill"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/index.html#moreRelatedSection">More Related Games <i class="bi bi-joystick"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Terms & Conditions<i class="bi bi-joystick"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Privacy Policy<i class="bi bi-joystick"></i></a>
+            </li>
+            <hr>
+            <a href="https://cocomelon.com/" target="_blank">    
+                <img src="/Asset/images/maxresdefault.jpg" alt="Cocomelon" class="my-4 rounded border border-dark" width="100%">
+            </a>
+            <a href="https://pawpatrolandfriends.com/" target="_blank">
+              <img src="/Asset/images/PawPatrol.jpg" alt="Cocomelon" class="my-4 rounded border border-dark" width="100%">
+            </a>
+            <a href="https://www.imdb.com/title/tt1361336/" target="_blank">
+              <img src="/WatchNow/Assets/images/TomandJerryTitleCardc.jpg" alt="Cocomelon" class="my-4 rounded border border-dark" width="100%">
+            </a>
+
+                
+
+        </div>
+        <div class="offcanvas-footer">
+            <div class="row d-flex justify-content-center align-items-center gx-5">
+                <div class="col-lg-6">
+                    <h5 class="text-center">Kiddie WebPark</h5>
+                </div>
+                <div class="col-lg-7 text-center my-2" id="socials-link">
+                    <a href="#" class="social-link p-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link p-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link p-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                            <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
+                        </svg>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+      </div>
+<!--OFFCANVAS/ SIDEBAR ENDS-->
+<!--TERMS AND CONDITIONS CODE STARTS HERE NOW BELOW-->
+<section id="termsCode" class="my-5">
+    <div class="container-fluid mt-5">
+        <div class="row justify-content-evenly" id="terms-conditions"> 
+            <div class="col-12 col-md-9 col-lg-8 col-xl-6">
+                <div id="termsHeader">
+                    <h1>Terms and Conditions</h1>
+                </div>
+                <div class="my-1">
+                    <h4 id="termsDate">
+                        Updated on December 29, 2022
+                    </h4>
+                </div>
+                <div id="termsParagraph" class="fs-5 text-center">
+                    <p id="Inter&Def">Please read these terms and conditions carefully before using Our Service.</p>
+                    <h1>Interpretation and Definitions</h1>
+                    <h2>Interpretation</h2>
+                    <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
+                    <h2>Definitions</h2>
+                    <p>For the purposes of these Terms and Conditions:</p>
+                    <ul>
+                    <li>
+                    <p><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</p>
+                    </li>
+                    <li>
+                    <p><strong>Country</strong> refers to:  Philippines</p>
+                    </li>
+                    <li>
+                    <p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Kiddie Web Park.</p>
+                    </li>
+                    <li>
+                    <p><strong>Device</strong> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</p>
+                    </li>
+                    <li>
+                    <p><strong>Service</strong> refers to the Website.</p>
+                    </li>
+                    <li>
+                    <p><strong>Terms and Conditions</strong> (also referred as &quot;Terms&quot;) mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. This Terms and Conditions agreement has been created with the help of the <a href="https://www.termsfeed.com/terms-conditions-generator/" target="_blank">TermsFeed Terms and Conditions Generator</a>.</p>
+                    </li>
+                    <li>
+                    <p><strong>Third-party Social Media Service</strong> means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.</p>
+                    </li>
+                    <li>
+                    <p><strong>Website</strong> refers to Kiddie Web Park, accessible from <a href="http://127.0.0.1:5500" rel="external nofollow noopener" target="_blank">http://127.0.0.1:5500</a></p>
+                    </li>
+                    <li>
+                    <p id="Acknowledgment"><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
+                    </li>
+                    </ul>
+                    <h1>Acknowledgment</h1>
+                    <p>These are the Terms and Conditions governing the use of this Service and the agreement that operates between You and the Company. These Terms and Conditions set out the rights and obligations of all users regarding the use of the Service.</p>
+                    <p>Your access to and use of the Service is conditioned on Your acceptance of and compliance with these Terms and Conditions. These Terms and Conditions apply to all visitors, users and others who access or use the Service.</p>
+                    <p>By accessing or using the Service You agree to be bound by these Terms and Conditions. If You disagree with any part of these Terms and Conditions then You may not access the Service.</p>
+                    <p>You represent that you are over the age of 18. The Company does not permit those under 18 to use the Service.</p>
+                    <p id="Link-Websites">Your access to and use of the Service is also conditioned on Your acceptance of and compliance with the Privacy Policy of the Company. Our Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your personal information when You use the Application or the Website and tells You about Your privacy rights and how the law protects You. Please read Our Privacy Policy carefully before using Our Service.</p>
+                    <h1>Links to Other Websites</h1>
+                    <p>Our Service may contain links to third-party web sites or services that are not owned or controlled by the Company.</p>
+                    <p>The Company has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge and agree that the Company shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods or services available on or through any such web sites or services.</p>
+                    <p id="Termination">We strongly advise You to read the terms and conditions and privacy policies of any third-party web sites or services that You visit.</p>
+                    <h1>Termination</h1>
+                    <p>We may terminate or suspend Your access immediately, without prior notice or liability, for any reason whatsoever, including without limitation if You breach these Terms and Conditions.</p>
+                    <p id="Limitation of Liability">Upon termination, Your right to use the Service will cease immediately.</p>
+                    <h1>Limitation of Liability</h1>
+                    <p>Notwithstanding any damages that You might incur, the entire liability of the Company and any of its suppliers under any provision of this Terms and Your exclusive remedy for all of the foregoing shall be limited to the amount actually paid by You through the Service or 100 USD if You haven't purchased anything through the Service.</p>
+                    <p>To the maximum extent permitted by applicable law, in no event shall the Company or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits, loss of data or other information, for business interruption, for personal injury, loss of privacy arising out of or in any way related to the use of or inability to use the Service, third-party software and/or third-party hardware used with the Service, or otherwise in connection with any provision of this Terms), even if the Company or any supplier has been advised of the possibility of such damages and even if the remedy fails of its essential purpose.</p>
+                    <p id="Disclaimer">Some states do not allow the exclusion of implied warranties or limitation of liability for incidental or consequential damages, which means that some of the above limitations may not apply. In these states, each party's liability will be limited to the greatest extent permitted by law.</p>
+                    <h1>&quot;AS IS&quot; and &quot;AS AVAILABLE&quot; Disclaimer</h1>
+                    <p>The Service is provided to You &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; and with all faults and defects without warranty of any kind. To the maximum extent permitted under applicable law, the Company, on its own behalf and on behalf of its Affiliates and its and their respective licensors and service providers, expressly disclaims all warranties, whether express, implied, statutory or otherwise, with respect to the Service, including all implied warranties of merchantability, fitness for a particular purpose, title and non-infringement, and warranties that may arise out of course of dealing, course of performance, usage or trade practice. Without limitation to the foregoing, the Company provides no warranty or undertaking, and makes no representation of any kind that the Service will meet Your requirements, achieve any intended results, be compatible or work with any other software, applications, systems or services, operate without interruption, meet any performance or reliability standards or be error free or that any errors or defects can or will be corrected.</p>
+                    <p>Without limiting the foregoing, neither the Company nor any of the company's provider makes any representation or warranty of any kind, express or implied: (i) as to the operation or availability of the Service, or the information, content, and materials or products included thereon; (ii) that the Service will be uninterrupted or error-free; (iii) as to the accuracy, reliability, or currency of any information or content provided through the Service; or (iv) that the Service, its servers, the content, or e-mails sent from or on behalf of the Company are free of viruses, scripts, trojan horses, worms, malware, timebombs or other harmful components.</p>
+                    <p id="Governing-Law">Some jurisdictions do not allow the exclusion of certain types of warranties or limitations on applicable statutory rights of a consumer, so some or all of the above exclusions and limitations may not apply to You. But in such a case the exclusions and limitations set forth in this section shall be applied to the greatest extent enforceable under applicable law.</p>
+                    <h1>Governing Law</h1>
+                    <p id="Disputes">The laws of the Country, excluding its conflicts of law rules, shall govern this Terms and Your use of the Service. Your use of the Application may also be subject to other local, state, national, or international laws.</p>
+                    <h1>Disputes Resolution</h1>
+                    <p id="European">If You have any concern or dispute about the Service, You agree to first try to resolve the dispute informally by contacting the Company.</p>
+                    <h1>For European Union (EU) Users</h1>
+                    <p id="Compliance">If You are a European Union consumer, you will benefit from any mandatory provisions of the law of the country in which you are resident in.</p>
+                    <h1>United States Legal Compliance</h1>
+                    <p id="Severability">You represent and warrant that (i) You are not located in a country that is subject to the United States government embargo, or that has been designated by the United States government as a &quot;terrorist supporting&quot; country, and (ii) You are not listed on any United States government list of prohibited or restricted parties.</p>
+                    <h1>Severability and Waiver</h1>
+                    <h2>Severability</h2>
+                    <p>If any provision of these Terms is held to be unenforceable or invalid, such provision will be changed and interpreted to accomplish the objectives of such provision to the greatest extent possible under applicable law and the remaining provisions will continue in full force and effect.</p>
+                    <h2>Waiver</h2>
+                    <p id="Translation">Except as provided herein, the failure to exercise a right or to require performance of an obligation under these Terms shall not effect a party's ability to exercise such right or require such performance at any time thereafter nor shall the waiver of a breach constitute a waiver of any subsequent breach.</p>
+                    <h1>Translation Interpretation</h1>
+                    <p id="Changes">These Terms and Conditions may have been translated if We have made them available to You on our Service.
+                    You agree that the original English text shall prevail in the case of a dispute.</p>
+                    <h1>Changes to These Terms and Conditions</h1>
+                    <p>We reserve the right, at Our sole discretion, to modify or replace these Terms at any time. If a revision is material We will make reasonable efforts to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at Our sole discretion.</p>
+                    <p id="Contact-Us">By continuing to access or use Our Service after those revisions become effective, You agree to be bound by the revised terms. If You do not agree to the new terms, in whole or in part, please stop using the website and the Service.</p>
+                    <h1>Contact Us</h1>
+                    <p>If you have any questions about these Terms and Conditions, You can contact us:</p>
+                    <ul>
+                    <li class="text-light">By email: selwynvillar@gmail.com</li>
+                    </ul>
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-3 col-lg-4 col-xl-3 align-items-start" id="shortcut-links">
+                <h3>On this page</h3>
+                <hr>
+                <a href="#Inter&Def"><h5>Interpretation and Definitions</h5></a>
+                <a href="#Acknowledgment"><h5>Acknowledgment</h5></a>
+                <a href="#Link-Websites"><h5>Links to Other Websites</h5></a>
+                <a href="#Termination">
+                    <h5>Termination</h5>
+                </a>
+                <a href="#Limitation of Liability">
+                    <h5>Limitation of Liability</h5>
+                </a>
+                <a href="#Disclaimer">
+                    <h5>Disclaimer</h5>
+                </a>
+                <a href="#Governing-Law">
+                    <h5>Governing Law</h5>
+                </a>
+                <a href="#Disputes">
+                    <h5>Disputes Resolution</h5>
+                </a>
+                <a href="#European">
+                    <h5>For European Union (EU) Users</h5>
+                </a>
+                <a href="#Compliance">
+                    <h5>United States Legal Compliance</h5>
+                </a>
+                <a href="#Severability">
+                    <h5>Severability and Waiver</h5>
+                </a>
+                <a href="#Translation">
+                    <h5>Translation Interpretation</h5>
+                </a>
+                <a href="#Changes">
+                    <h5>Changes to These Terms and Conditions</h5>
+                </a>
+                <a href="#Contact-Us">
+                    <h5>Contact Us</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Footer Section-->
+<footer id="section" class="text-light">
+    <div class="container-lg">
+      <div class="row justify-content-center">
+        <div class="col-sm-8 col-lg-2">
+          <h4 class="fs-3 text-center">Kiddie Web Park</h4>
+          <p class="lead text-center">
+            A park developed for the quality learning of your children.
+          </p>
+        </div>
+        <div class="col-sm-8 col-lg-6 text-center" id="footer-links">
+          <p>
+            <a href="/index.html#gamesection" class="text-warning fs-4">Games</a>
+          </p>
+          <p>
+            <a href="#" class="text-warning fs-4">Privacy & Policy</a>
+          </p>
+          <p>
+            <a href="#" class="text-warning fs-4">Terms and Conditions</a>
+          </p>
+          <p>
+            <a href="/index.html#about-us" class="text-warning fs-4">About Us</a>
+          </p>
+        </div>
+        <div class="col-sm-5 col-lg-2">
+          <p>
+            <i class="bi bi-house-door-fill fs-3"></i> Prk-6 Bangoy St. San Francisco, Panabo City
+          </p>
+          <p>
+            <i class="bi bi-envelope-fill fs-3"></i> selwynvillar@gmail.com
+          </p>
+          <p>
+            <i class="bi bi-telephone-fill fs-2"></i> +63 9090774336
+          </p>
+        </div>
+      </div>
+      <hr style="width: 100%;">
+      <div class="row justify-content-center">
+        <div class="text-center">
+          <h5>Copyright&copy; All Rights Reserved 2022</h5>
+          <h5>Created by PANZERWEB</h5>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+    <script src="terms.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
+
+</body>
+</html>
