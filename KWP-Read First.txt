@@ -13,3 +13,7 @@ Put the example codes on an Anchor Tag's href like base on its medium : <a href=
 2.)Example Code: (Live server, Code Editor)
 - /T&C/terms.html
 
+No issues will be found if you are opening the website inside a code editor or using
+live server as it will completely implement the original code.
+But using the website and opening it directly on a computer's My Library locally and 
+manually will occur an error navigating a webpage.
