@@ -164,3 +164,44 @@ body::before{
     padding-top: 20rem;
     background-color: var(--prime-color);
 }
+
+@media only screen and (min-height: 480px) and (max-width: 767px){
+    #termsParagraph{
+        overflow: scroll;
+        height: 500px;
+    }
+    #termsHeader h1{
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    #termsParagraph p{
+        text-align: justify;
+        text-indent: 1rem;
+        padding-top: 2rem;
+        font-size: 1rem;
+        color: var(--text-color)
+    }
+    #termsParagraph a{
+        color: var(--link-color);
+        transition: 0.5s linear;
+    }
+    #termsParagraph a:hover{
+        color: var(--text-color);
+    }
+    #termsDate{
+        font-size: 1rem;
+        color: #6c757d;
+    }
+    #shortcut-links{
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+    #section{
+        padding-top: 10rem;
+        background-color: var(--prime-color);
+    }
+    
+}
