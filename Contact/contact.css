@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+:root{
+    --prime-color: #291720;
+    --text-color: #f6bd60;
+    --header-color: #f8af38; 
+    --blend-color: #3f172c8e;
+    --accordion-color: #D4E6F1;
+    --link-color: #9b712e;
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--prime-color) !important;
+}
+
+body::before{
+    content: '';
+    display: block;
+    height: 5rem;
+}
+
+#navigation{
+    background-color: var(--prime-color);
+}
+
+#nav-item{
+    position: relative;
+}
+
+#nav-item li{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#socials-link a{
+    color: rgb(114, 139, 160);
+    transition: 0.3s linear;
+}
+
+#socials-link a:hover{
+    color: rgb(9, 229, 245);
+}
+
+#nav-icon-logo{
+    position: relative;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#nav-icon-logo:hover{
+    transform: rotate(360deg);
+}
+
+#offcanvas-para{
+    width: 100%;
+    animation-name: offparagraph;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+/*? This styling is use for the animation on sidebar/offcanvas */
+@keyframes offparagraph {
+    0%{
+        color: #d3d3d3 ;
+    }
+    45%{
+        color: #d4f804 ;
+    }
+    75%{
+        color: rgb(9, 9, 248);
+    }
+    100%{
+        color: rgb(231, 6, 6);
+    }
+}
+
+#offcanvas-nav li{
+    color: rgb(11, 192, 11);
+}
+
+#offcanvas-nav li:hover{
+    color: rgb(236, 144, 6);
+}
+
+
+#socials-link-intro svg{
+    color: rgb(114, 139, 160);
+    transition: 0.2s;
+}
+
+#socials-link-intro svg:hover{
+    color: rgb(9, 229, 245);
+}
+
+/*? End of canvas animation code block*/
