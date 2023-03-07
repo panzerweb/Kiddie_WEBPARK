@@ -123,6 +123,17 @@ body::before{
 #vidText i{
     margin-left: 1rem;
 }
+
+#video-car h5{
+    text-align: center;
+    margin-top: 0.5rem;
+    color: #311825;
+    font-size: 2rem;
+    transition: 0.5s ease-in-out;
+}
+#video-car h5:hover{
+    color: var(--header-color);
+}
 /*
 #video-carous img{
     transition: 0.5s linear;
