@@ -137,6 +137,16 @@ body::before{
     transform: scale(1.1);
 }
 
+#video-carous iframe{
+    transition: 0.5s linear;
+    height: 14rem;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    border-bottom: 1.5rem solid #D81159;
+}
+
+
 /* VIDEO CAROUSEL ENDS*/
 
 /*! VIDEO SUGGESTION CAROUSEL STARTS*/
