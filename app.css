@@ -209,13 +209,14 @@ body::before{
     border-bottom: 1px solid #22191e;
     padding-bottom: 7rem;
 }
+
 #card-game img{
     height: 150px;
     box-shadow: 2px 2px #B91372;
     transition: 0.5s linear;
 }
 
-#card-game img:hover{
+#card-game a img:hover{
     transform: scale(1.1);
 }
 
